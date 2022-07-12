@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.opening{
+
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff0054;
+}
+
+.text{
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    text-align:center;
+    top: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+#kkk a {
+    text-decoration: none;
+    color:#ffff;
+}
+
+/* card content */
+.middle{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size: 1.2rem;
+    background-color: #ff0054;;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    display:none;
+}
+.readme{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 3;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    padding:2rem;
+    background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+margin:20px;
+
+}
+
+#button-damai{
+    padding:8px;
+    cursor: pointer;
+    text-decoration:none;
+    style:none;
+    border:none;
+    background-color: #ff0054;
+    margin:10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.next{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff0054;
+    overflow: hidden;
+    display:none;
+}
+
+#button-next{
+    padding:8px;
+    cursor: pointer;
+    text-decoration:none;
+    style:none;
+    border:none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#mem{
+    margin:10px;
+    padding:2rem;
+background: rgba( 255, 255, 255, 0.45 );
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+
+}
+
+#mem 
+img{
+    border-radius:20px;
+    height:200px;
+}
+.param_2{
+padding:2rem;
+background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+margin:20px;
+font-size: 1.4rem;
+font-family: 'Poppins', sans-serif;
+}
+
+.pertanyaan{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    font-size: 1.2rem;
+    background-color: #ff0054;;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+display:none;
+}
+.param_3{
+    padding:2rem;
+background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+margin:20px;
+font-size: 1.4rem;
+font-family: 'Poppins', sans-serif;
+
+}
+
+#next-01{
+    padding:8px;
+    cursor: pointer;
+    text-decoration:none;
+    style:none;
+    border:none;
+    background-color: #ffff;
+    margin:10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.meme02{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    font-size: 1.2rem;
+    background-color: #ff0054;;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    display:none;
+}
+
+#cod, img{
+    height:300px;
+}
+#next-3{
+    padding:8px;
+    cursor: pointer;
+    text-decoration:none;
+    style:none;
+    border:none;
+    background-color: #ffff;
+    margin:10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.btn{
+    padding:8px;
+    cursor: pointer;
+    text-decoration:none;
+    style:none;
+    border:none;
+    background-color: #ffff;
+    margin:10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.lucu{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    font-size: 1.2rem;
+    background-color: #ff0054;;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    display:none;
+}
+
+.last{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    font-size: 1.2rem;
+    background-color: #ff0054;;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    display:none;
+}
+
+#next-5{
+    padding:8px;
+    cursor: pointer;
+    text-decoration:none;
+    style:none;
+    border:none;
+    background-color: #ffff;
+    margin:10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+/* #str {
+    width: auto;
+    padding: 20px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 200px auto;
+    color: #fff;
+    font-weight: bold;
+    background: #000;
+ } */
+ 
+ .typewriter{
+    width: auto;
+ }
+
+ .typewriter h1 {
+    font-size: 20px;
+    width:auto;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
